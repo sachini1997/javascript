@@ -1,0 +1,10 @@
+<div id="myID">
+<p id="p1">This is a paragraph.</p>
+</div>
+<script>
+varp = document.createElement("p"); //creates a new <p> element
+varnode = document.createTextNode("Newly created"); // To add text to the <p> element
+p.appendChild(node); //append the text node to the <p> element
+varelement = document.getElementById("myID");
+element.appendChild(p); //append the new element to an existing element
+</script>
